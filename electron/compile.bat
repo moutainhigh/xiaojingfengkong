@@ -1,0 +1,1 @@
+electron-packager d:/java/workspace/phoenix/electron/src Phoenix --platform=win32 --arch=x64 --icon=d:/java/workspace/phoenix/electron/src/icon.ico --overwrite --out d:/java/workspace/phoenix/electron/dist --electronVersion=1.7.9 --version=0.0.1

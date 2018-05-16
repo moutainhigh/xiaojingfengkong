@@ -1,0 +1,153 @@
+08:51:56 [restartedMain] [INFO] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:48) - Starting Application on P-V-9 with PID 5236 (C:\Users\Administrator\Desktop\sgwc\target\classes started by Administrator in C:\Users\Administrator\Desktop\sgwc)
+08:51:56 [restartedMain] [INFO] org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:597) - The following profiles are active: dev
+08:52:04 [restartedMain] [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:179) - Starting service [Tomcat]
+08:52:04 [restartedMain] [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:179) - Starting Servlet Engine: Apache Tomcat/8.5.16
+08:52:04 [localhost-startStop-1] [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:179) - Initializing Spring embedded WebApplicationContext
+08:52:07 [localhost-startStop-1] [INFO] com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} inited
+08:52:42 [localhost-startStop-1] [INFO] org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1208) - Using default implementation for ThreadExecutor
+08:52:42 [localhost-startStop-1] [INFO] org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61) - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+08:52:42 [localhost-startStop-1] [INFO] org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229) - Quartz Scheduler v.2.3.0 created.
+08:52:42 [localhost-startStop-1] [INFO] org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294) - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+08:52:42 [localhost-startStop-1] [INFO] org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1362) - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+08:52:42 [localhost-startStop-1] [INFO] org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1366) - Quartz scheduler version: 2.3.0
+08:52:42 [localhost-startStop-1] [INFO] org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2287) - JobFactory set to: com.shangdao.phoenix.config.QuartzConfig$AutowiringSpringBeanJobFactory@1df88d
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.repairorder.RepairOrderNotice
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.menu.Menu
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.moduleManager.ModuleManagerFile
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.customer.Customer
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.noticeTemplate.NoticeTemplate
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.act.ActNotice
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.productionManager.ProductionManager
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.moduleManager.ModuleManagerNotice
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.tag.Tag
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.department.Department
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.companyApplyForm.CompanyApplyFormFile
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.button.Button
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.companyApplyForm.CompanyApplyFormLog
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.companybill.CompanyBillLog
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.example.ExampleNotice
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.company.CompanyLog
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.report.Report
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.company.CompanyNotice
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.moduleManager.ModuleManager
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.role.Role
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.productionManager.ProductionManagerNotice
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.moduleManager.ModuleManagerLog
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.companybill.CompanyBill
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.state.State
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.example.ExampleFile
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.apisearch.APISearch
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.companyApplyForm.CompanyApplyForm
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.productionManager.ProductionManagerFile
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.pictureturn.PictureTurns
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.repairorder.RepairOrderFile
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.productionManager.ProductionManagerLog
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.message.Message
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.company.CompanyNotice
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.company.CompanyFile
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.act.Act
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.example.ExampleTag
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.example.ExampleLog
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.supplyAPI.SupplyAPI
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.companybill.CompanyBillNotice
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.moxiecallback.MoxieCallBack
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.repairorder.RepairOrder
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.pictureturn.PictureTurnsFile
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.pictureturn.PictureTurnsNotice
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.companybill.CompanyBillFile
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.account.Account
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.entityManager.EntityManager
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.company.Company
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.repairorder.RepairOrderLog
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.pictureturn.PictureTurnsLog
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.customer.Evaluation
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.example.Example
+08:52:43 [restartedMain] [INFO] com.shangdao.phoenix.service.InitService.init(InitService.java:167) - jpaRepository的泛型实体名字：com.shangdao.phoenix.entity.user.User
+08:52:47 [restartedMain] [INFO] org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547) - Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+08:52:47 [restartedMain] [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:179) - Initializing ProtocolHandler ["http-nio-80"]
+08:52:47 [restartedMain] [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:179) - Starting ProtocolHandler ["http-nio-80"]
+08:52:47 [restartedMain] [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:179) - Using a shared selector for servlet write/read
+08:52:47 [restartedMain] [INFO] org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:57) - Started Application in 51.425 seconds (JVM running for 56.609)
+08:53:44 [http-nio-80-exec-1] [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:179) - Initializing Spring FrameworkServlet 'dispatcherServlet'
+08:53:44 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:44 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:44 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:44 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:44 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:44 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:44 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:44 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:44 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:44 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:44 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:44 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:44 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:44 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:44 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:44 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:44 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:44 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:44 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:44 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:44 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:44 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:44 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:44 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:44 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:44 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:45 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:45 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:45 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:45 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:45 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:45 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:45 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:45 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:45 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:45 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:45 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:45 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:45 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:45 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:45 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:45 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:45 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:45 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:45 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:45 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:45 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:45 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:45 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:45 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:49 [http-nio-80-exec-4] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:49 [http-nio-80-exec-3] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:49 [http-nio-80-exec-5] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:49 [http-nio-80-exec-6] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:50 [http-nio-80-exec-7] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:52 [http-nio-80-exec-8] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:53 [http-nio-80-exec-9] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:53 [http-nio-80-exec-10] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:54 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:54 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:55 [http-nio-80-exec-3] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:56 [http-nio-80-exec-4] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:56 [http-nio-80-exec-6] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:56 [http-nio-80-exec-5] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:57 [http-nio-80-exec-7] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:53:59 [http-nio-80-exec-8] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:54:01 [http-nio-80-exec-9] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:54:05 [http-nio-80-exec-10] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:54:05 [http-nio-80-exec-1] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:54:06 [http-nio-80-exec-2] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:54:07 [http-nio-80-exec-3] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:54:09 [http-nio-80-exec-4] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:54:09 [http-nio-80-exec-6] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:54:10 [http-nio-80-exec-5] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql
+08:54:10 [http-nio-80-exec-7] [INFO] com.shangdao.phoenix.util.MysqlBuilder.build(MysqlBuilder.java:112) - 缓存未命中,开始分析url,并生成sql

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss} [%t] [%p] %l - %msg%n"/>
+        </Console>
+
+        <RollingFile name="RollingInfo" fileName="logs/info/log.log"
+                     filePattern="logs/info/%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="%d{HH:mm:ss} [%t] [%p] %l - %msg%n"/>
+            <ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1"/>
+            </Policies>
+        </RollingFile>
+
+        <RollingFile name="RollingWarn" fileName="logs/warn/log.log"
+                     filePattern="logs/warn/%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="%d{HH:mm:ss} [%t] [%p] %l - %msg%n"/>
+            <ThresholdFilter level="warn" onMatch="ACCEPT" onMismatch="DENY"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1"/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <!--过滤掉spring的一些无用的INFO信息-->
+        <logger name="org.springframework" level="WARN"></logger>
+        <logger name="org.hibernate" level="WARN"></logger>
+        <Root level="INFO">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="RollingInfo"/>
+            <AppenderRef ref="RollingWarn"/>
+        </Root>
+    </Loggers>
+</Configuration>

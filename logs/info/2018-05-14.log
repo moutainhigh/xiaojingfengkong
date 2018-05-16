@@ -1,0 +1,6 @@
+09:19:09 [restartedMain] [INFO] org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:48) - Starting Application on P-V-9 with PID 1072 (C:\Users\Administrator\Desktop\sgwc\target\classes started by Administrator in C:\Users\Administrator\Desktop\sgwc)
+09:19:09 [restartedMain] [INFO] org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:597) - The following profiles are active: dev
+09:19:15 [restartedMain] [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:179) - Starting service [Tomcat]
+09:19:15 [restartedMain] [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:179) - Starting Servlet Engine: Apache Tomcat/8.5.16
+09:19:15 [localhost-startStop-1] [INFO] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:179) - Initializing Spring embedded WebApplicationContext
+09:19:18 [localhost-startStop-1] [INFO] com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} inited

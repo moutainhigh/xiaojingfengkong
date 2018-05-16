@@ -1,0 +1,36 @@
+09:15:49 [http-nio-80-exec-4] [WARN] org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:189) - Resolved exception caused by Handler execution: com.shangdao.phoenix.util.OutsideRuntimeException
+09:16:26 [http-nio-80-exec-5] [WARN] org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:189) - Resolved exception caused by Handler execution: com.shangdao.phoenix.util.OutsideRuntimeException
+09:17:34 [http-nio-80-exec-10] [WARN] org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:189) - Resolved exception caused by Handler execution: com.shangdao.phoenix.util.OutsideRuntimeException
+09:17:44 [http-nio-80-exec-2] [WARN] org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:189) - Resolved exception caused by Handler execution: com.shangdao.phoenix.util.OutsideRuntimeException
+09:18:47 [http-nio-80-exec-6] [WARN] org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:189) - Resolved exception caused by Handler execution: com.shangdao.phoenix.util.OutsideRuntimeException
+09:20:13 [http-nio-80-exec-2] [WARN] org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:189) - Resolved exception caused by Handler execution: com.shangdao.phoenix.util.OutsideRuntimeException
+09:21:34 [redisMessageListenerContainer-7] [WARN] org.springframework.data.redis.listener.RedisMessageListenerContainer.invokeErrorHandler(RedisMessageListenerContainer.java:291) - Execution of message listener failed, and no ErrorHandler has been set.
+org.springframework.data.redis.serializer.SerializationException: Cannot deserialize; nested exception is org.springframework.core.serializer.support.SerializationFailedException: Failed to deserialize payload. Is the byte array a result of corresponding serialization for DefaultDeserializer?; nested exception is java.io.InvalidClassException: org.springframework.security.core.context.SecurityContextImpl; local class incompatible: stream classdesc serialVersionUID = 500, local class serialVersionUID = 420
+	at org.springframework.data.redis.serializer.JdkSerializationRedisSerializer.deserialize(JdkSerializationRedisSerializer.java:82) ~[spring-data-redis-1.8.6.RELEASE.jar:?]
+	at org.springframework.data.redis.core.AbstractOperations.deserializeHashValue(AbstractOperations.java:338) ~[spring-data-redis-1.8.6.RELEASE.jar:?]
+	at org.springframework.data.redis.core.AbstractOperations.deserializeHashMap(AbstractOperations.java:282) ~[spring-data-redis-1.8.6.RELEASE.jar:?]
+	at org.springframework.data.redis.core.DefaultHashOperations.entries(DefaultHashOperations.java:227) ~[spring-data-redis-1.8.6.RELEASE.jar:?]
+	at org.springframework.data.redis.core.DefaultBoundHashOperations.entries(DefaultBoundHashOperations.java:102) ~[spring-data-redis-1.8.6.RELEASE.jar:?]
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.getSession(RedisOperationsSessionRepository.java:432) ~[spring-session-1.3.1.RELEASE.jar:?]
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.onMessage(RedisOperationsSessionRepository.java:519) ~[spring-session-1.3.1.RELEASE.jar:?]
+	at org.springframework.data.redis.listener.RedisMessageListenerContainer.executeListener(RedisMessageListenerContainer.java:249) [spring-data-redis-1.8.6.RELEASE.jar:?]
+	at org.springframework.data.redis.listener.RedisMessageListenerContainer.processMessage(RedisMessageListenerContainer.java:239) [spring-data-redis-1.8.6.RELEASE.jar:?]
+	at org.springframework.data.redis.listener.RedisMessageListenerContainer$1.run(RedisMessageListenerContainer.java:967) [spring-data-redis-1.8.6.RELEASE.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+Caused by: org.springframework.core.serializer.support.SerializationFailedException: Failed to deserialize payload. Is the byte array a result of corresponding serialization for DefaultDeserializer?; nested exception is java.io.InvalidClassException: org.springframework.security.core.context.SecurityContextImpl; local class incompatible: stream classdesc serialVersionUID = 500, local class serialVersionUID = 420
+	at org.springframework.core.serializer.support.DeserializingConverter.convert(DeserializingConverter.java:78) ~[spring-core-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.core.serializer.support.DeserializingConverter.convert(DeserializingConverter.java:36) ~[spring-core-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.data.redis.serializer.JdkSerializationRedisSerializer.deserialize(JdkSerializationRedisSerializer.java:80) ~[spring-data-redis-1.8.6.RELEASE.jar:?]
+	... 10 more
+Caused by: java.io.InvalidClassException: org.springframework.security.core.context.SecurityContextImpl; local class incompatible: stream classdesc serialVersionUID = 500, local class serialVersionUID = 420
+	at java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:616) ~[?:1.8.0_144]
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1843) ~[?:1.8.0_144]
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1713) ~[?:1.8.0_144]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2000) ~[?:1.8.0_144]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1535) ~[?:1.8.0_144]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:422) ~[?:1.8.0_144]
+	at org.springframework.core.serializer.DefaultDeserializer.deserialize(DefaultDeserializer.java:70) ~[spring-core-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.core.serializer.support.DeserializingConverter.convert(DeserializingConverter.java:73) ~[spring-core-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.core.serializer.support.DeserializingConverter.convert(DeserializingConverter.java:36) ~[spring-core-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.data.redis.serializer.JdkSerializationRedisSerializer.deserialize(JdkSerializationRedisSerializer.java:80) ~[spring-data-redis-1.8.6.RELEASE.jar:?]
+	... 10 more
